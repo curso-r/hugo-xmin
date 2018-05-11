@@ -1,7 +1,7 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "A minimal Hugo website"
-theme = "hugo-xmin"
+languageCode = "pt-br"
+title = "Programação em R"
+theme = "template-curso"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -17,21 +17,22 @@ footnotereturnlinkcontents = "↩"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Introdução"
+    url = "/intro/"
     weight = 2
 [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
+    name = "Manipulação"
+    url = "/manip/"
     weight = 3
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
+    name = "Visualização"
+    url = "/visualizacao/"
     weight = 4
 [[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
+    name = "Case"
+    url = "/case/"
+    weight = 5
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 -- 2018 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+    footer = "&copy; [Curso-R](http://curso-r.com) 2018 | [Github](https://github.com/curso-r)"
