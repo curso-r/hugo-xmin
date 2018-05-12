@@ -2,8 +2,6 @@
 title: Introdução à Programação em R
 ---
 
-# Introdução a Programação em R
-
 ## Público Alvo
 
 ## Pré-requisitos
